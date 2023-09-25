@@ -1,12 +1,35 @@
-.container-tela-principal {
-    position: relative;
-    width: 100%;
+.page-tela-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
 }
-.image-tela-principal {
-    width: 100%;
-    max-width: 100%;
+.carrosel-tela-principal{    
+    height: 100vh;
+    width: 100vw;
 }
+.container-tela-principal{
+    display: flex;
+    width: 400vw;
+    height: 100vh;
+    transition: 0.7s ease-in-out;
+    
+    transform: translateX(0);
+}
+
+
+.imagem-tela-principal, .imagem-ada{
+    width: 100vw;
+    height: 100vh;
+}
+
+
 .text-tela-principal {
+    font-weight: 900;
     position: absolute;
     top: 0;
     left: 0;
@@ -16,14 +39,15 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    mask-image: linear-gradient(to bottom, transparent 20%, black 80%);
-    -webkit-mask-image: linear-gradient(to bottom, transparent 20%, black 80%);
-    color: #27348B;
-    font-size: 30px;
+   /*  mask-image: linear-gradient(to bottom, transparent 20%, black 80%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 20%, black 80%); */
+    color: #2819ad;
+    font-size: 4rem;
     white-space: nowrap;
 }
 .barra-digitacao {
     width: 1px;
+    display: none;
     height: 1.2em;
     background-color: white;
     margin-left: 4px;

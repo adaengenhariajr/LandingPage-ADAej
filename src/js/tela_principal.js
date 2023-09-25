@@ -1,5 +1,5 @@
 const textElement = document.getElementById('changingText');
-const texts = ["Oportunidades não surgem. É você que as cria", "Comece de onde você está. Use o que você tiver. Faça o que você puder"];
+const texts = ["Acredite em si, assim obterá sucesso.","Oportunidades não surgem, você as cria", "A persistência supera a resistência.","                                   "];
 let index = 0;
 let charIndex = 0;
 
@@ -14,7 +14,7 @@ function typeText() {
         setTimeout(typeText, 75); // Velocidade de digitação
     } else {
         charIndex = 0;
-        setTimeout(eraseText, 2000); // Tempo de pausa antes de apagar o texto
+        setTimeout(eraseText, 1500); // Tempo de pausa antes de apagar o texto
     }
 }
 
@@ -26,7 +26,7 @@ function eraseText() {
     } else {
         textElement.innerHTML = ''; // Limpa o conteúdo
         index = (index + 1) % texts.length;
-        setTimeout(typeText, 500); // Tempo de pausa antes de digitar o próximo texto
+        setTimeout(typeText, 1500); // Tempo de pausa antes de digitar o próximo texto
     }
 }
 
