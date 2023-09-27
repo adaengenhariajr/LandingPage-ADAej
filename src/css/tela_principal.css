@@ -45,19 +45,5 @@
     font-size: 4rem;
     white-space: nowrap;
 }
-.barra-digitacao {
-    width: 1px;
-    display: none;
-    height: 1.2em;
-    background-color: white;
-    margin-left: 4px;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink {
-    0%, 100% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-}
+
+
