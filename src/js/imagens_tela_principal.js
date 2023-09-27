@@ -10,4 +10,4 @@ function slider(){
     box.style.transform = `translateX(${-contador*100}vw)`
 }
 
-setInterval(slider, 15000)
+setInterval(slider, 9000)

@@ -8,17 +8,14 @@
     overflow: hidden;
 
 }
-.carrosel-tela-principal{    
+
+.container-tela-principal{
     height: 100vh;
     width: 100vw;
-}
-.container-tela-principal{
     display: flex;
     width: 400vw;
-    height: 100vh;
-    transition: 0.7s ease-in-out;
-    
-    transform: translateX(0);
+    height: 100vh;   
+    transition: 1s ease-out;
 }
 
 .imagem-tela-principal{
@@ -49,11 +46,11 @@
    /*  mask-image: linear-gradient(to bottom, transparent 20%, black 80%);
     -webkit-mask-image: linear-gradient(to bottom, transparent 20%, black 80%); */
     white-space: nowrap;
-    color: rgb(1, 1, 107);
+    color: rgb(11, 11, 184);
 
 }
 .text-fix{
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding: 10px;
     color: #ffffff;
 
@@ -66,20 +63,3 @@
     padding: 10px;
 }
 
-/* .animationFadeOut{
-    animation: fadeOut 8s linear infinite;
-}
-@keyframes fadeOut {
-  0%{opacity: 1;}
-  10%{opacity: 0.9;}
-  20%{opacity: 0.9;}
-  30%{opacity: 0.7;}
-  40%{opacity: 0.7;}
-  50%{opacity: 0.5;}
-  60%{opacity: 0.5;}
-  70%{opacity: 0.3;}
-  80%{opacity: 0.3;}
-  90%{opacity: 0.0;}
-  100%{opacity: 0;}
-    
-} */

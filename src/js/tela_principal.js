@@ -11,7 +11,7 @@ function typeText() {
     charIndex++;
 
     if (charIndex < currentText.length) {
-        setTimeout(typeText, 75); // Velocidade de digitação
+        setTimeout(typeText, 100); // Velocidade de digitação
     } else {
         charIndex = 0;
         setTimeout(eraseText, 1000); // Tempo de pausa antes de apagar o texto
