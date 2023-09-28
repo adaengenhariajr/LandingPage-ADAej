@@ -1,6 +1,8 @@
 .page_time{
     background-color: #28338C ;
     height: 220vh;
+    overflow-y: hidden;
+
 }
 .title_time{
         display: block;
