@@ -18,8 +18,9 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 540px;
-  height: 288px;
+  width: 570px;
+  height: 340px;
+  overflow-y: hidden;
 }
 
 ::placeholder {
