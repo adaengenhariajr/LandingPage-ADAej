@@ -19,7 +19,7 @@
   flex-direction: column;
   gap: 10px;
   width: 570px;
-  height: 340px;
+  height: 350px;
   overflow-y: hidden;
 }
 
@@ -52,13 +52,11 @@
 .submit-button {
   font-size: 20px;
   color: white;
-  height: 60px;
+  height: 80px;
   width: 100%;
   background-color: black;
   cursor: pointer;
   border-radius: 10px;
+  overflow-y: hidden;
 }
 
-.submit-button:hover {
-  transform: scale(1.05);
-}
