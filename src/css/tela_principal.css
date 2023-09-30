@@ -36,10 +36,8 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-   /*  mask-image: linear-gradient(to bottom, transparent 20%, black 80%);
-    -webkit-mask-image: linear-gradient(to bottom, transparent 20%, black 80%); */
     white-space: nowrap;
-    color: rgb(11, 11, 184);
+    color: #2033c0;
 
 }
 .text-fix{
