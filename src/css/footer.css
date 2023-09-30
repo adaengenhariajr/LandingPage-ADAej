@@ -1,15 +1,58 @@
 footer {
-  bottom: 0;
-  background-color: #27348b;
-  width: 100%;
-  height: auto;    
-  text-align: center;
-  line-height: 80px;    
+	bottom: 0;
+	background-color: #fdfdfd;
+	width: 100%;
+	height: auto;    
+
 }
-.es{
-text-align: left;
-border-right: 100px;
-color: #6068ae;
-margin-left: 50px;
-font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+.footer_info{
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+	
+}
+.footer_info_item{
+	display: flex;
+	align-items: center;
+	margin: .5rem;	
+
+}
+
+.footer_info_item p{
+	display: inline;
+	font-size: 12px;
+	margin-left: 1rem;
+	justify-content: center;
+}
+
+#links_footer{
+	color: black;
+	text-decoration: none;
+	
+}
+
+.title_contatos{
+	margin-top: 2rem;
+	text-align: center;
+}
+
+
+.rodape{
+	text-align: left;
+	border-right: 100px;
+	color: #6068ae;
+	margin-left: 50px;
+	margin-top: 1rem;
+	font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+#endereco {
+	width: 200px
+}
+
+@media(max-width: 600px) {
+  .footer_info {
+      display: grid;
+			grid-template-columns: 1fr;
+  }
 }

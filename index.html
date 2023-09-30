@@ -15,27 +15,26 @@
     <link rel="stylesheet" href="./src/css/contact_us.css">
     <link rel="stylesheet" href="./src/css/footer.css">
     <link rel="stylesheet" href="./src/css/global.css">
-    
+    <link rel="icon" href="./src/icon/Marca_FundoComum_icon.ico">
 </head>
 
 <body>
     <header>
-        <nav>
-          <a class="logo" href="/">LOGO</a>
+        <div id="logo">
+            <img src="src/img/Marca_fundo_escuro_PNG.png" alt="logo da ada">
+        </div>
 
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          
-          <ul class="nav-list">
-            <li><a href="#Sobre">Sobre</a></li>
-            <li><a href="#Servicos">Serviços</a></li>
-            <li><a href="#Quem">Quem Somos</a></li>
-            <li><a href="#Depoimentos">Depoimentos</a></li>
-            <li><a href="#Contato">Contato</a></li>
-          </ul>
+        <nav id='nav-bar'>
+            <button id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="#Sobre" onclick="handleclickMenu(this)">Sobre</a></li>
+                <li><a href="#Servicos"  onclick="handleclickMenu(this)">Serviços</a></li>
+                <li><a href="#Time"  onclick="handleclickMenu(this)">Time</a></li>
+                <li><a href="#Portfolio" onclick="handleclickMenu(this)">Portfólio</a></li>
+                <li><a href="#Contato" onclick="handleclickMenu(this)">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -58,19 +57,20 @@
         </div>
     </section>
 
-    <section>
+    <section id="Sobre">
         <div class="container-sobrenos">   
             <div class="txt-sobrenos">
                 <h3 class="title">Sobre nós</h3>
                 <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis purus nec nibh ti</p>
             </div>
-            <div class="video-sobrenos">
-                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            <div class="imagem-sobrenos">
+                <!--<iframe src=""></iframe> pra quando for colocar a imagem -->
+                <h1 class="txt-provisorio">POSSÍVEL FOTO COM TODOS UNIDOS</h1>
             </div>
         </div>
     </section>
 
-    <section>
+    <section id="Servicos">
         <div class="title-servicos">
             <b>Serviços</b>
         </div>
@@ -94,7 +94,7 @@
         </div>
     </section>
 
-    <section class="page_time">
+    <section class="page_time" id="Time">
         <h2 class="title_time">Time</h2>
 
         <div class="container_time">
@@ -137,7 +137,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="Portfolio">
         <div class="slideshow-container">
             <h2 class="titulo">Portfólio</h2>
             <div class="mySlides fade">
@@ -171,9 +171,9 @@
         </div>
     </section>
 
-    <section class="page_depoimentos" >
+    <section class="page_depoimentos">
         
-        <h2 class="title_depoimentos">Depoimentos</h2>
+        <h2 class="title_depoimentos" id = "id-depoimentos">Depoimentos</h2>
         
         <div class="container_depoimentos">
           
@@ -234,7 +234,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="Contato">
         <h2 class="contact-title">Entre em Contato</h2>
         <form class="contact-form">
             <div class="contact-fields">
@@ -253,7 +253,53 @@
 
 
     <footer>
-        <div class="es">© Desenvolvido por ADAej. </div>
+      
+        <a href="#"></a>
+        
+        <h3 class="title_contatos">CONTATOS</h3>
+        <div class="footer_info">
+           
+
+            <a id ="links_footer" target="_blank" href="mailto:adaempresajr@gmail.com">
+                <div class="footer_info_item ">
+                    
+                    <img id="imga" src="https://img.icons8.com/?size=26&id=499&format=png" alt="">
+                    <p>adaempresajr@gmail.com</p>
+                
+                </div>
+            </a>
+            
+            <a id ="links_footer" target="_blank" href="https://www.google.com/maps/place/Universidade+Federal+do+Maranh%C3%A3o+(UFMA)/@-2.5584935,-44.3092239,17z/data=!3m1!4b1!4m6!3m5!1s0x7f6860324886045:0x1024f6caa9406aaa!8m2!3d-2.5584935!4d-44.3092239!16s%2Fm%2F03hnz3c?hl=pt-BR&entry=ttu" >
+    
+               <div class="footer_info_item ">
+                    <img src="https://img.icons8.com/?size=26&id=2435&format=png" alt="">
+                    
+                    <p>Av. dos Portugueses, 1966 - Vila Bacanga, São Luís - MA, 65080-805</p>
+                </div>
+            
+            </a>
+           
+            <a  id ="links_footer" target="_blank" href="https://www.instagram.com/ada.engenhariajr/">
+                    
+                <div class="footer_info_item ">
+                    <img src="https://img.icons8.com/?size=26&id=48841&format=png" alt="">
+                    <p>@ada.engenhariajr</p>
+                </div>
+               
+            </a>
+            
+            <a id ="links_footer" target="_blank" href="https://www.linkedin.com/company/ada-empresa-j%C3%BAnior/about/?viewAsMember=true">
+                
+                <div class="footer_info_item ">
+                    
+                    <img src="https://img.icons8.com/?size=26&id=446&format=png" alt="">
+                    <p>Linkedin</p>
+                
+                </div>
+            </a>
+
+        </div>
+        <div class="rodape">© Desenvolvido por ADAej. </div>
     </footer>
 
     <script src="./src/js/navbar.js"></script>

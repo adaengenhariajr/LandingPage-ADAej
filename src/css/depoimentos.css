@@ -5,7 +5,8 @@
 
 .title_depoimentos{
     text-align: center;
-    padding-top: 64px;
+    padding-top: 5rem;
+    padding-bottom:3rem;
     font-size: 3rem;
     color: white;
 }
@@ -69,10 +70,12 @@
     margin-top: 1rem;
   }
   .title_depoimentos{
-    padding-top: 22px;
+    padding-top: 2rem;
     padding-bottom: 0px;
   }
   .item_depoimentos{
     height: 200px;
+    margin: 2rem;
+    font-size: 12px;
   }
 }
