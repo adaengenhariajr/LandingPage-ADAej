@@ -10,7 +10,7 @@
 .contact-title {
   text-align: center;
   font-size: 3rem;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   color: #ffff;
 }
 
@@ -18,40 +18,41 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 540px;
-  height: 288px;
-}
-
-::placeholder {
-  font-size: 18px;
+  max-width: 540px;
+  width: 90%;
+  height: 60%;
 }
 
 .contact-fields {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
+  height: 25%;
 }
 
 .contact-fields input {
-  padding: 10px;
-  font-size: 1.5rem;
   background-color: white;
-  width: 265px;
-  height: 60px;
+  width: 100%;
+  max-width: 265px;
   border-radius: 10px;
+  height: 100%;
+  padding: 10px;
+}
+
+.contact-message{
+  height: 100%;
 }
 
 .contact-message textarea {
   width: 100%;
-  height: 160px;
+  height: 100%;
   border-radius: 10px;
   padding: 10px;
-  font-size: 1.5rem;
 }
 
 .submit-button {
   font-size: 20px;
   color: white;
-  height: 60px;
+  height: 55px;
   width: 100%;
   background-color: black;
   cursor: pointer;
@@ -59,5 +60,9 @@
 }
 
 .submit-button:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
+}
+
+::placeholder {
+  font-size: 18px;
 }
