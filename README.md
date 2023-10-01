@@ -1,6 +1,17 @@
 # [LandingPage-ADAej](https://hreis1.github.io/LandingPage-ADAej/)
 Empresa Junior de engenharia da Computação
 
+## Sumário do README - LandingPage-ADAej
+
+1. [Visão Geral](#visão-geral)
+2. [Estrutura do Projeto](#estrutura-do-projeto)
+3. [Seções do Site](#seções-do-site)
+4. [Uso do Site](#uso-do-site)
+5. [Contribuições](#contribuições)
+6. [Autores](#autores)
+7. [Licença](#licença)
+8. [Contato](#contato)
+
 ## Visão Geral
 Visão Geral
 Esta landing page foi criada como parte de um projeto de desenvolvimento web e serve como exemplo prático de uma landing page para a empresa "ADAej". A landing page foi desenvolvida usando HTML, CSS e JavaScript para criar uma experiência atraente para os visitantes. Ele contém várias seções que representam elementos comuns em sites empresariais.
