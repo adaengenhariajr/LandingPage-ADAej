@@ -1,4 +1,4 @@
-# [LandingPage-ADAej](https://hreis1.github.io/LandingPage-ADAej/)
+# [LandingPage-ADAej](https://alive-umbrella-moth.cyclic.app/)
 Empresa Junior de engenharia da Computação
 
 ## Sumário do README - LandingPage-ADAej
